@@ -12,7 +12,7 @@ override-friendly**, which is especially valuable during **unit testing, mocking
 
 ```kotlin
 kopen {
-    kopenEnabled = true // When enabled → all final becomes open
+    mode = KopenMode.TESTS
 }
 ```
 

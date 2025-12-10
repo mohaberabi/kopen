@@ -75,4 +75,11 @@ class OrderRepositoryTest {
         assertEquals(false, result[0].isSynced)
         assertEquals(true, result[1].isSynced)
     }
+
+    @Test
+    fun mohab() {
+        assertTrue {
+            true
+        }
+    }
 }

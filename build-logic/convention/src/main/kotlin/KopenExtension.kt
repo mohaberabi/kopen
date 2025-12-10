@@ -2,9 +2,11 @@ import org.gradle.api.model.ObjectFactory
 import javax.inject.Inject
 import org.gradle.api.provider.Property
 
+enum class KopenMode { OFF, TESTS, ALL }
+
 
 abstract class KopenExtension @Inject constructor(
     objects: ObjectFactory
 ) {
-    val kopenEnabled: Property<Boolean> = objects.property(Boolean::class.java).convention(false)
+    val mode: Property<KopenMode> = objects.property(KopenMode::class.java)
 }
