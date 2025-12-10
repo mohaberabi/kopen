@@ -1,4 +1,4 @@
-name: Common Unit Tests With no flags
+name: Common Unit Tests With flags
 on:
   pull_request:
     types:
