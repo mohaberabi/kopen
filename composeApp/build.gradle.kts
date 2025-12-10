@@ -80,3 +80,7 @@ android {
 dependencies {
     debugImplementation(compose.uiTooling)
 }
+
+kopen {
+    mode = KopenMode.TESTS
+}
